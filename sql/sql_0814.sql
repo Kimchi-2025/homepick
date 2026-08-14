@@ -13,3 +13,6 @@ CREATE TABLE member (
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 ) AUTO_ID_CACHE 1;
 
+select * from member;
+
+delete from member where id = 1;

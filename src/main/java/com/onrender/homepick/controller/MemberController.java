@@ -32,9 +32,4 @@ public class MemberController{
         memberService.join(joinDto);
         return "redirect:/login"; // 가입 성공 시 로그인 페이지로 이동
     }
-
-    @GetMapping("/success")
-    public String successPage(){
-        return "member/success";
-    }
 }
