@@ -1,43 +1,5 @@
-HELP.md
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-# Created by https://www.toptal.com/developers/gitignore/api/java,python,react,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=java,python,react,visualstudiocode
+# Created by https://www.toptal.com/developers/gitignore/api/java,python,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=java,python,visualstudiocode
 
 ### Java ###
 # Compiled class file
@@ -236,21 +198,6 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
-### react ###
-.DS_*
-logs
-**/*.backup.*
-**/*.back.*
-
-node_modules
-bower_components
-
-*.sublime*
-
-psd
-thumb
-sketch
-
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -270,5 +217,4 @@ sketch
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/java,python,react,visualstudiocode
-
+# End of https://www.toptal.com/developers/gitignore/api/java,python,visualstudiocode
